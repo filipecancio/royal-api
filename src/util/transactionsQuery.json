@@ -1,0 +1,70 @@
+    {
+        "month":10,
+        "year":"2020",
+        "totals":[
+            {
+                "id":0,
+                "nick":["Gleisson","Milena","Rafaela"],
+                "debit": 106,
+                "credit": 904,
+                "totalsDebit": [56,35,7],
+                "totalsCredit": [36,27,11]
+            },
+            {
+                "id":789,
+                "nick":["Rafaela"],
+                "debit": 8,
+                "credit": 330,
+                "totalsDebit": [7],
+                "totalsCredit": [36]
+            },
+            {
+                "id":123,
+                "nick":["Ariadne"],
+                "debit": 0,
+                "credit": 250,
+                "totalsDebit": [0],
+                "totalsCredit": [27]
+            },
+            {
+                "id":456,
+                "nick":["Cassio"],
+                "debit": 0,
+                "credit": 100,
+                "totalsDebit": [0],
+                "totalsCredit": [11]
+            },
+            {
+                "id":654,
+                "nick":["Gleisson"],
+                "debit": 60,
+                "credit": 0,
+                "totalsDebit": [56],
+                "totalsCredit": [0]
+            },
+            {
+                "id":891,
+                "nick":["Thaise"],
+                "debit": 0,
+                "credit": 60,
+                "totalsDebit": [0],
+                "totalsCredit": [6]
+            },
+            {
+                "id":567,
+                "nick":["Milena"],
+                "debit": 38,
+                "credit": 64,
+                "totalsDebit": [35],
+                "totalsCredit": [7]
+            },
+            {
+                "id":987,
+                "nick":["Ianka"],
+                "debit": 0,
+                "credit": 100,
+                "totalsDebit": [0],
+                "totalsCredit": [11]
+            }
+        ]
+    }
