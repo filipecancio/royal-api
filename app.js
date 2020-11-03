@@ -1,12 +1,16 @@
 const express = require('express');
 const cors = require('cors');
 const mongoose = require('mongoose');
+require('dotenv/config');
 
 const home = require('./src/util/home.json');
 const contacts = require('./src/util/contacts.json');
 const transactions = require('./src/util/transactions.json');
 const query = require('./src/util/transactionsQuery.json');
 
+const db_user = process.env.DATABASE_USER;
+const db_pass = process.env.DATABASE_PASS;
+const db_name = process.env.DATABASE_NAME;
 
 const app = express();
 
@@ -15,7 +19,7 @@ app.use(cors());
 
 
 mongoose.connect(
-    "url",
+    `mongodb+srv://${db_user}:${db_pass}@cluster0.jizof.mongodb.net/${db_name}?retryWrites=true&w=majority`,
     {
         useNewUrlParser:true,
         useCreateIndex:true,
