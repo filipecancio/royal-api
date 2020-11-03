@@ -1,5 +1,7 @@
 const express = require('express');
 const cors = require('cors');
+const mongoose = require('mongoose');
+
 const home = require('./src/util/home.json');
 const contacts = require('./src/util/contacts.json');
 const transactions = require('./src/util/transactions.json');
@@ -10,6 +12,12 @@ const app = express();
 
 app.use(express.json());
 app.use(cors());
+
+mongoose.connect(
+    "",
+    {useNewUrlParser:true}
+);
+
 
 app.get('/home',(request,response)=>{
     return response.json(home);
